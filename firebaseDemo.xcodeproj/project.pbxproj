@@ -12,10 +12,12 @@
 		2533E5631D7A00B500199E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2533E5611D7A00B500199E02 /* Main.storyboard */; };
 		2533E5651D7A00B500199E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2533E5641D7A00B500199E02 /* Assets.xcassets */; };
 		2533E5681D7A00B500199E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2533E5661D7A00B500199E02 /* LaunchScreen.storyboard */; };
-		2533E58D1D7A078C00199E02 /* GoogleService-Info-3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2533E58C1D7A078C00199E02 /* GoogleService-Info-3.plist */; };
+		2533E58D1D7A078C00199E02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2533E58C1D7A078C00199E02 /* GoogleService-Info.plist */; };
+		C3DC7DCEBB95BF4A2FB68125 /* Pods_firebaseDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A749C064FC2E1027DC0B1B2A /* Pods_firebaseDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CDC283A0DC7E413647CF242 /* Pods-firebaseDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseDemo/Pods-firebaseDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2533E55A1D7A00B500199E02 /* firebaseDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2533E55D1D7A00B500199E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2533E55F1D7A00B500199E02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +25,9 @@
 		2533E5641D7A00B500199E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2533E5671D7A00B500199E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2533E5691D7A00B500199E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2533E58C1D7A078C00199E02 /* GoogleService-Info-3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-3.plist"; sourceTree = "<group>"; };
+		2533E58C1D7A078C00199E02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A749C064FC2E1027DC0B1B2A /* Pods_firebaseDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebaseDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20CCF22169875AE2B19B760 /* Pods-firebaseDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-firebaseDemo/Pods-firebaseDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3DC7DCEBB95BF4A2FB68125 /* Pods_firebaseDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				2533E55C1D7A00B500199E02 /* firebaseDemo */,
 				2533E55B1D7A00B500199E02 /* Products */,
+				C066FB81F1F9ABFE4065DBE7 /* Pods */,
+				95EAF1A4FF69B4D0A4D65EF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +69,26 @@
 				2533E5641D7A00B500199E02 /* Assets.xcassets */,
 				2533E5661D7A00B500199E02 /* LaunchScreen.storyboard */,
 				2533E5691D7A00B500199E02 /* Info.plist */,
-				2533E58C1D7A078C00199E02 /* GoogleService-Info-3.plist */,
+				2533E58C1D7A078C00199E02 /* GoogleService-Info.plist */,
 			);
 			path = firebaseDemo;
+			sourceTree = "<group>";
+		};
+		95EAF1A4FF69B4D0A4D65EF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A749C064FC2E1027DC0B1B2A /* Pods_firebaseDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C066FB81F1F9ABFE4065DBE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0CDC283A0DC7E413647CF242 /* Pods-firebaseDemo.debug.xcconfig */,
+				C20CCF22169875AE2B19B760 /* Pods-firebaseDemo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2533E56C1D7A00B500199E02 /* Build configuration list for PBXNativeTarget "firebaseDemo" */;
 			buildPhases = (
+				6801011632C0A12DB22331D4 /* Check Pods Manifest.lock */,
 				2533E5561D7A00B500199E02 /* Sources */,
 				2533E5571D7A00B500199E02 /* Frameworks */,
 				2533E5581D7A00B500199E02 /* Resources */,
+				24B7699396B1DA6F94DD9BC6 /* Embed Pods Frameworks */,
+				B07C75BCC57CA13DB03904CB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,11 +155,59 @@
 				2533E5681D7A00B500199E02 /* LaunchScreen.storyboard in Resources */,
 				2533E5651D7A00B500199E02 /* Assets.xcassets in Resources */,
 				2533E5631D7A00B500199E02 /* Main.storyboard in Resources */,
-				2533E58D1D7A078C00199E02 /* GoogleService-Info-3.plist in Resources */,
+				2533E58D1D7A078C00199E02 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24B7699396B1DA6F94DD9BC6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseDemo/Pods-firebaseDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6801011632C0A12DB22331D4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B07C75BCC57CA13DB03904CB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-firebaseDemo/Pods-firebaseDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2533E5561D7A00B500199E02 /* Sources */ = {
@@ -251,6 +326,7 @@
 		};
 		2533E56D1D7A00B500199E02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CDC283A0DC7E413647CF242 /* Pods-firebaseDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = firebaseDemo/Info.plist;
@@ -262,6 +338,7 @@
 		};
 		2533E56E1D7A00B500199E02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C20CCF22169875AE2B19B760 /* Pods-firebaseDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = firebaseDemo/Info.plist;
